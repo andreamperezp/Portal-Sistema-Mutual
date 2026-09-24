@@ -10,7 +10,7 @@ Sitio público (landing) con la presentación institucional y el formulario de s
  
 El formulario valida los datos en el navegador pero todavía no los envía a ningún backend — está preparado para conectarse al sistema de gestión el día que se decida integrarlos.
  
-Ver el detalle en [`mas-portal/README.md`](./mas-portal/README.md).
+Ver el detalle en [[`mas-portal/README.md`](./mas-portal/README.md)](https://github.com/andreamperezp/MAS/blob/main/mas-portal/mas-portal/README.md).
  
 ### [`mas-sistema-gestion/`](./mas-sistema-gestion)
  
