@@ -1,6 +1,6 @@
-# MAS | Mutual Argentina Solidaria
+# Portal + Sistema | Mutual
  
-Repositorio con los dos proyectos digitales de MAS: el sitio público de afiliación y el sistema interno de gestión.
+Repositorio con los dos proyectos digitales de portal + sistema: el sitio público de afiliación y el sistema interno de gestión.
  
 ## Proyectos
  
