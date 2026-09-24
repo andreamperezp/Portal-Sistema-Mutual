@@ -34,14 +34,7 @@ Todo lo que el sistema lee y escribe (usuarios, asociados, solicitudes) vive en 
 - **Usuarios (superadmin)**: listar, crear usuarios nuevos y activar/desactivar accesos.
 - Diseño **responsive**: sidebar en escritorio, barra de navegación inferior en mobile.
 
-## 4. Usuarios de prueba
-
-| Rol | Email | Contraseña |
-|---|---|---|
-| Superadmin | `superadmin@mas.org.ar` | `mas2026` |
-| Administrador | `admin@mas.org.ar` | `mas2026` |
-
-## 5. Cómo correrlo
+## 4. Cómo correrlo
 
 ### Requisitos
 
@@ -69,7 +62,7 @@ npm run build
 npm start
 ```
 
-## 6. Deploy (Vercel u otro hosting de Next.js)
+## 5. Deploy (Vercel u otro hosting de Next.js)
 
 1. Subí este repositorio a GitHub.
 2. En [vercel.com](https://vercel.com), **Add New → Project** e importá el repositorio.
@@ -78,14 +71,14 @@ npm start
 
 Como los datos viven en memoria, cada redeploy (o cada reinicio del servidor) vuelve a los datos de ejemplo originales — es esperable en esta versión.
 
-## 7. Notas de seguridad
+## 6. Notas de seguridad
 
 - Las contraseñas se guardan hasheadas con `bcrypt` (vía `bcryptjs`), nunca en texto plano.
 - La cookie de sesión es `httpOnly` y firmada (JWT), no se puede leer ni falsificar desde JavaScript del navegador.
 - El middleware (`src/middleware.ts`) bloquea `/panel` y `/usuarios` a cualquiera que no sea `superadmin`, además de exigir sesión válida en todas las rutas internas.
 - Un asociado nunca se elimina de los datos: solo cambia de estado (activo/pausado/inactivo).
 
-## 8. Estructura del proyecto
+## 7. Estructura del proyecto
 
 ```
 mas-sistema-gestion/
