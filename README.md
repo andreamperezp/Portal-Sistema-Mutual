@@ -10,7 +10,7 @@ Sitio público (landing) con la presentación institucional y el formulario de s
  
 El formulario valida los datos en el navegador pero todavía no los envía a ningún backend — está preparado para conectarse al sistema de gestión el día que se decida integrarlos.
  
-Ver el detalle en [[`mas-portal/README.md`](./mas-portal/README.md)](https://github.com/andreamperezp/MAS/blob/main/mas-portal/mas-portal/README.md).
+Ver el detalle en el readme individual de este proyecto.
  
 ### [`mas-sistema-gestion/`](./mas-sistema-gestion)
  
@@ -18,7 +18,7 @@ Backoffice interno para gestionar solicitudes de afiliación, la base de asociad
  
 Esta versión no depende de ninguna base de datos externa: los datos de ejemplo viven en memoria dentro del propio proyecto, así que se puede clonar y correr sin configurar credenciales de terceros.
  
-Ver el detalle en [`mas-sistema-gestion/README.md`](./mas-sistema-gestion/README.md).
+Ver el detalle en el readme individual de este proyecto.
  
 ## Cómo se relacionan
  
